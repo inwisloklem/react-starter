@@ -6,7 +6,7 @@ dependencies:
   eslint-config-standard: 12.0.0
   eslint-config-standard-react: 7.0.2
   eslint-import-resolver-node: 0.3.2
-  eslint-plugin-html: 5.0.0
+  eslint-plugin-html: 5.0.3
   eslint-plugin-import: 2.16.0
   eslint-plugin-node: 8.0.1
   eslint-plugin-promise: 4.0.1
@@ -3808,6 +3808,13 @@ packages:
     dev: false
     resolution:
       integrity: sha1-BzxpdUbOB4DOI75KKOKT5AvDDII=
+  /dom-serializer/0.1.1:
+    dependencies:
+      domelementtype: 1.3.1
+      entities: 1.1.2
+    dev: false
+    resolution:
+      integrity: sha512-l0IU0pPzLWSHBcieZbpOKgkIn3ts3vAh7ZuFyXNwJxJXk/c4Gwj9xaTJwIDVQCXawWD0qb3IzMGH5rglQaO0XA==
   /domain-browser/1.2.0:
     dev: false
     engines:
@@ -3856,7 +3863,7 @@ packages:
       integrity: sha1-3NhIiib1Y9YQeeSMn3t+Mjc2gs8=
   /domutils/1.7.0:
     dependencies:
-      dom-serializer: 0.1.0
+      dom-serializer: 0.1.1
       domelementtype: 1.3.1
     dev: false
     resolution:
@@ -4168,12 +4175,12 @@ packages:
       eslint: '>=2.0.0'
     resolution:
       integrity: sha512-9kRxF9hfM/O6WGZcZPszOVPd2W0TLHBtceulLTsGfwMPtiCCLnCW0ssRiOOiXyqrCA20pm1iXdXm7gQeN306zQ==
-  /eslint-plugin-html/5.0.0:
+  /eslint-plugin-html/5.0.3:
     dependencies:
-      htmlparser2: 3.10.0
+      htmlparser2: 3.10.1
     dev: false
     resolution:
-      integrity: sha512-f7p/7YQdgQUFVAX3nB4dnMQbrDeTalcA01PDhuvTLk0ZadCwM4Pb+639SRuqEf1zMkIxckLY+ckCr0hVP5zl6A==
+      integrity: sha512-46ruAnp3jVQP/5Bi5eEIOooscjUTPFU3vxCxHe/OG6ORdM7Xv5c25/Nz9fAbHklzCpiXuIiH4/mV/XBkm7MINw==
   /eslint-plugin-import/2.14.0/eslint@5.6.0:
     dependencies:
       contains-path: 0.1.0
@@ -5547,6 +5554,17 @@ packages:
     dev: false
     resolution:
       integrity: sha512-J1nEUGv+MkXS0weHNWVKJJ+UrLfePxRWpN3C9bEi9fLxL2+ggW94DQvgYVXsaT30PGwYRIZKNZXuyMhp3Di4bQ==
+  /htmlparser2/3.10.1:
+    dependencies:
+      domelementtype: 1.3.1
+      domhandler: 2.4.2
+      domutils: 1.7.0
+      entities: 1.1.2
+      inherits: 2.0.3
+      readable-stream: 3.1.1
+    dev: false
+    resolution:
+      integrity: sha512-IgieNijUMbkDovyoKObU1DUhm1iwNYE/fuifEoEHfd1oZKZDaONBSkal7Y01shxsM49R4XaMdGez3WnF9UfiCQ==
   /htmlparser2/3.3.0:
     dependencies:
       domelementtype: 1.3.1
@@ -11635,7 +11653,7 @@ specifiers:
   eslint-config-standard: ^12.0.0
   eslint-config-standard-react: ^7.0.2
   eslint-import-resolver-node: ^0.3.2
-  eslint-plugin-html: ^5.0.0
+  eslint-plugin-html: ^5.0.3
   eslint-plugin-import: ^2.16.0
   eslint-plugin-node: ^8.0.1
   eslint-plugin-promise: ^4.0.1
